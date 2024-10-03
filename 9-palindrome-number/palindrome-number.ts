@@ -4,9 +4,6 @@ function isPalindrome(x: number): boolean {
     for (let temp of str ) {
         tempr = temp + tempr;
     };
-    if (str === tempr) {
-        return true
-    } else {
-        return false
-    }
+    const result: boolean = (str == tempr) ? true : false;
+    return result;
 };
